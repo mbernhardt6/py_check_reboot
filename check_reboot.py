@@ -27,3 +27,4 @@ if __name__ == "__main__":
 Reboot %s to resolve.""" % hostname)
   else:
     logger.logMessage(log, "No reboot required.")
+  logger.logMessages(log, "===================")
